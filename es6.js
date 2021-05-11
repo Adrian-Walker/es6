@@ -44,6 +44,4 @@ let produceProduct = (a, b) => {
 }
 
 // #4.)
-let printName = () => {
-    
-}
+let printName = (firstName = 'Jane', lastName = 'Doe', age = 100) => console.log(`Hi ${this.firstName} ${this.lastName},  how does is feel to be ${this.age}`)
