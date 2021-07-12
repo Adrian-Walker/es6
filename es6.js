@@ -7,6 +7,9 @@ let mapVegetables = (arr) => {
     })
 }
 
+
+console.log(mapVegetables(carrots))
+
 // #2.)
 const people = [
     {
@@ -29,9 +32,11 @@ const people = [
 
 let filterForFriendly = (arr) => {
     arr.filter((person) => {
-        person.friendly
+       return person.friendly
     })
 }
+
+console.log(filterForFriendly(people))
 
 // #3.)
 
